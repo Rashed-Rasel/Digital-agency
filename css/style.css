@@ -81,3 +81,104 @@ body {
 /* ============================ */
 /* ====navbar section end====== */
 /* =========================== */
+
+/* ============================ */
+/* ====Banner section start====== */
+/* =========================== */
+#banner {
+  background-image: linear-gradient(#a517ba, #5f1782);
+  color: #fff;
+  padding-top: 100px;
+}
+#banner .bannar_left_item h1 {
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+#banner .bannar_left_item p {
+  font-weight: 400;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+#banner .bannar_left_item a {
+  color: #fff;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+#banner .bannar_left_item a:hover {
+  color: #56f50c;
+}
+#banner .bannar_left_item a img {
+  width: 45px;
+  margin: 20px;
+}
+#banner .bannar_bg_img picture img {
+  width: 100%;
+}
+
+/* ============================ */
+/* ====Banner section end====== */
+/* =========================== */
+
+/* ============================ */
+/* ====Services section start====== */
+/* =========================== */
+#Services {
+  padding: 80px 0;
+}
+#Services .hearder h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+#Services .hearder h2::before {
+  content: "";
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+#Services .hearder h2::after {
+  content: "";
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+  transform: translateY(8px);
+}
+#Services .services_item picture img {
+  width: 100px;
+  margin-top: 50px;
+}
+
+#Services .services_item h2 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+#Services .services_item p {
+  font-weight: 400;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+#Services .btn-primary {
+  box-shadow: none;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(#a517ba, #5f1782);
+  transition: all linear, 0.3s;
+}
+#Services .btn-primary:hover {
+  color: #f4d03f;
+}
+
+/* ============================ */
+/* ====Services section end====== */
+/* =========================== */
