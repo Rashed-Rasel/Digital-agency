@@ -7,10 +7,7 @@
   outline: 0;
   box-sizing: border-box;
 }
-ul,
-li {
-  list-style: none;
-}
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -181,4 +178,51 @@ body {
 
 /* ============================ */
 /* ====Services section end====== */
+/* =========================== */
+
+/* ============================ */
+/* ====ABOUT section end====== */
+/* =========================== */
+
+#about {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+#about .hearder h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+#about .hearder h2::before {
+  content: "";
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+#about .hearder h2::after {
+  content: "";
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+  transform: translateY(8px);
+}
+#about .about-left p {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+#about .about-left ul li {
+  margin: 10px 0;
+}
+
+/* ============================ */
+/* ====ABOUT section end====== */
 /* =========================== */
