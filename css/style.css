@@ -284,3 +284,26 @@ body {
 /* ============================ */
 /* ====Testimonials section end====== */
 /* =========================== */
+
+/* ============================ */
+/* ====Social section start====== */
+/* =========================== */
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+#social-media p {
+  font-size: 36px;
+  font-family: var(--fontfamily);
+  margin-bottom: 20px;
+}
+#social-media .social_icons img {
+  width: 60px;
+  transition: all linear 0.5s;
+}
+#social-media .social_icons a:hover img {
+  transform: translateY(-10px);
+}
+/* ============================ */
+/* ====Social section end====== */
+/* =========================== */
