@@ -307,3 +307,32 @@ body {
 /* ============================ */
 /* ====Social section end====== */
 /* =========================== */
+
+/* ============================ */
+/* ====footer section start====== */
+/* =========================== */
+#footer {
+  background-image: linear-gradient(#a517ba, #5f1782);
+  color: #fff;
+}
+#footer .footer_img {
+  width: 100%;
+}
+#footer .footer-box {
+  padding: 20px;
+}
+#footer .footer-box img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+#footer .footer-box .icon {
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 2px;
+  background-image: linear-gradient(#a517ba, #5f1782);
+}
+
+/* ============================ */
+/* ====footer section end====== */
+/* =========================== */
